@@ -71,6 +71,8 @@ textarea:focus {
 
 .copy {
     position: relative;
+    display: flex;
+    gap: 5px;
 }
 
 #copy-img {
@@ -80,15 +82,14 @@ textarea:focus {
 
 
 #copy-img,
-.copy p {
+#copy-txt {
     display: inline-block;
     vertical-align: middle;
 }
 
-.copy p {
+#copy-txt {
     font-family: 'Roboto', sans-serif;
     color: #1976D2;
-    margin-left: 5px;
 }
 
 .copy:hover {
@@ -96,6 +97,6 @@ textarea:focus {
     
 }
 
-.copy:hover p {
+#copy-txt:hover {
     color: #014a92;
 }
