@@ -94,20 +94,26 @@ textarea {
     }
 }
 
-#copy-img {
+.copy-img {
     width: 20px;
     height: auto;
     display: inline-block;
     vertical-align: middle;
 }
 
-#copy-txt {
+.copy-txt {
     display: inline-block;
     vertical-align: middle;
     font-family: $font-family_1;
     color: $color_2;
-
+    /*
+    ! the color is misleading even when 'isCopied === true'
     &:hover {
         color: $color_3;
     }
+    */
+}
+
+.copied {
+    color: #35b000;
 }
